@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel"
+		]
+	},
+	"pretoclip-desc": "{{desc|name=PreToClip|url=https://www.mediawiki.org/wiki/Extension:PreToClip}}",
+	"pretoclip-button-label": "Label for a button",
+	"pretoclip-button-tooltip": "Toolip for a button",
+	"pretoclip-button-notification-text": "Notification text"
+}

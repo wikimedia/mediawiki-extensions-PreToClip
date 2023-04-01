@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Robert Vogel"
+		]
+	},
+	"pretoclip-desc": "Allows to copy contents of PRE tags into the clipboard",
+	"pretoclip-button-label": "Copy",
+	"pretoclip-button-tooltip": "Copy the contents into the clipboard",
+	"pretoclip-button-notification-text": "Contents have been copied into the clipboard"
+}
