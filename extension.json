@@ -1,0 +1,45 @@
+{
+	"name": "PreToClip",
+	"version": "2.0.0",
+	"author": [
+		"[https://www.hallowelt.com Hallo Welt! GmbH]"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:PreToClip",
+	"descriptionmsg": "pretoclip-desc",
+	"license-name": "GPL-3.0-only",
+	"type": "other",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\PreToClip\\": "src/"
+	},
+	"HookHandlers": {
+		"PreToClipHooks": {
+			"class": "MediaWiki\\Extension\\PreToClip\\Hooks"
+		}
+	},
+	"Hooks": {
+		"BeforePageDisplay": "PreToClipHooks"
+	},
+	"MessagesDirs": {
+		"PreToClip": [
+			"i18n"
+		]
+	},
+	"ResourceModules": {
+		"ext.preToClip.scripts": {
+			"localBasePath": "resources",
+			"remoteExtPath": "PreToClip/resources",
+			"packageFiles": [
+				"ext.preToClip.scripts.js"
+			],
+			"messages": [
+				"pretoclip-button-label",
+				"pretoclip-button-tooltip",
+				"pretoclip-button-notification-text"
+			]
+		}
+	},
+	"manifest_version": 2
+}
