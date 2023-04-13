@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brettchenweber",
 			"Robert Vogel"
 		]
 	},
-	"pretoclip-desc": "Erlaubt den Inhalt von PRE Tags in die Zwischenablage zu kopieren",
+	"pretoclip-desc": "Erlaubt den Inhalt von PRE-Tags in die Zwischenablage zu kopieren",
 	"pretoclip-button-label": "Kopieren",
 	"pretoclip-button-tooltip": "Kopiert den Inhalt in die Zwischenablage",
 	"pretoclip-button-notification-text": "Inhalt wurde in die Zwischenablage kopiert"

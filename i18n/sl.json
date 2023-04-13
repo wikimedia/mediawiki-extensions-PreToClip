@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Eleassar"
+		]
+	},
+	"pretoclip-desc": "Omogoča kopiranje vsebine oznak PRE v odložišče",
+	"pretoclip-button-label": "Kopiraj",
+	"pretoclip-button-tooltip": "Kopirajte vsebino v odložišče",
+	"pretoclip-button-notification-text": "Vsebina je kopirana v odložišče"
+}

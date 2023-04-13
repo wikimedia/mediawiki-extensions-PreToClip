@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Verdy p"
+		]
+	},
+	"pretoclip-desc": "Permet de copier le contenu des balises « PRE » dans le presse-papiers",
+	"pretoclip-button-label": "Copier",
+	"pretoclip-button-tooltip": "Copier le contenu dans le presse-papiers",
+	"pretoclip-button-notification-text": "Le contenu a été copié dans le presse-papiers"
+}
