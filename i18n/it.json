@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"pretoclip-button-label": "Copia",
+	"pretoclip-button-tooltip": "Copia il contenuto negli appunti",
+	"pretoclip-button-notification-text": "I contenuti sono stati copiati negli appunti"
+}

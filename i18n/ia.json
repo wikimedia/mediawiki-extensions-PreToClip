@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"McDutchie"
+		]
+	},
+	"pretoclip-desc": "Permitte copiar contento de etiquettas PRE in le area de transferentia",
+	"pretoclip-button-label": "Copiar",
+	"pretoclip-button-tooltip": "Copiar le contento al area de transferentia",
+	"pretoclip-button-notification-text": "Le contento ha essite copiate al area de transferentia"
+}

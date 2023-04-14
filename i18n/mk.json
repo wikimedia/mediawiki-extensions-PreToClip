@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bjankuloski06"
+		]
+	},
+	"pretoclip-desc": "Овозможува копирање на содржините на ознаките „PRE“ во меѓускладот",
+	"pretoclip-button-label": "Копирај",
+	"pretoclip-button-tooltip": "Копирај ја содржината во меѓускладот",
+	"pretoclip-button-notification-text": "Содржината е прекопирана во меѓускладот"
+}
