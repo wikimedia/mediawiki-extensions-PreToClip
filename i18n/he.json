@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"pretoclip-desc": "אפשרות להעתיק תוכן של תגי PRE ללוח",
+	"pretoclip-button-label": "העתקה",
+	"pretoclip-button-tooltip": "העתקת התוכן ללוח",
+	"pretoclip-button-notification-text": "התוכן הועתק ללוח"
+}

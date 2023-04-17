@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Sabelöga"
+		]
+	},
+	"pretoclip-desc": "Gör så att man kan kopiera innehåll från PRE-taggar till urklipp",
+	"pretoclip-button-label": "Kopiera",
+	"pretoclip-button-tooltip": "Kopiera innehållet till urklipp",
+	"pretoclip-button-notification-text": "Innehållet har kopierats till urklipp"
+}
