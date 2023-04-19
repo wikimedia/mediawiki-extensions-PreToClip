@@ -3,7 +3,7 @@
 	if ( !navigator.clipboard ) {
 		// eslint-disable-next-line no-console
 		console.error( 'Extension:PreToClip: `navigator.clipboard` not available. HINT: Only works from HTTPS or `localhost` context.' );
-		//return;
+		return;
 	}
 	function createPreToClipButton( pre ) {
 		var copyButton = document.createElement( 'button' );
