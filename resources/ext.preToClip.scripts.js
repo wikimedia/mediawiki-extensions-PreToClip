@@ -21,10 +21,11 @@
 		pre.parentNode.insertBefore( copyButton, pre );
 
 		var style =
-		'display:none;' +
-		'z-index:1000;' +
-		'position:absolute;' +
-		'right:0';
+			'display:none;' +
+			'z-index:1000;' +
+			'position:relative;' +
+			'float:right;' +
+			'margin-left: -' + copyButton.offsetWidth + 'px;';
 		copyButton.setAttribute( 'style', style );
 
 		pre.preToClipButton = copyButton;
