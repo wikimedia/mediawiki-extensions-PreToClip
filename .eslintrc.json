@@ -9,9 +9,7 @@
 		"no-implicit-globals": "off"
 	},
 	"globals": {
-		"mw": "readonly",
 		"mediaWiki": "readonly",
-		"OO": "readonly",
 		"jQuery": "readonly"
 	}
 }
