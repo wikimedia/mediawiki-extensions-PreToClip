@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alshamiri1"
+		]
+	},
+	"pretoclip-button-label": "نسخ",
+	"pretoclip-button-tooltip": "ينسخ المحتوى إلى الحافظة",
+	"pretoclip-button-notification-text": "تم نسخ المحتويات في الحافظة"
+}
