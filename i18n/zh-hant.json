@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Kly"
 		]
 	},
-	"pretoclip-button-label": "複製"
+	"pretoclip-desc": "允許將 PRE 標籤的內容複製到剪貼簿",
+	"pretoclip-button-label": "複製",
+	"pretoclip-button-tooltip": "複製內容到剪貼簿",
+	"pretoclip-button-notification-text": "內容已復製到剪貼簿"
 }
