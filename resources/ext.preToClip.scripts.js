@@ -58,10 +58,30 @@
 		);
 	} );
 
+	$( document ).on( 'touchmove', 'pre', function () {
+		var me = this;
+		setTimeout( function () {
+			if ( me.preToClipButton && !me.preToClipButton.isMouseOver ) {
+				me.preToClipButton.style.display = 'none';
+			}
+		},
+		50
+		);
+	} );
+
 	$( document ).on( 'click', '.pretoclip-copy-button', function () {
 		// eslint-disable-next-line compat/compat
 		navigator.clipboard.writeText( this.assignedPre.innerText );
 		mw.notify( mw.message( 'pretoclip-button-notification-text' ).text() );
+	} );
+
+	$( document ).on( 'touchstart', '.pretoclip-copy-button', function () {
+		this.isMouseOver = true;
+	} );
+
+	$( document ).on( 'touchmove', '.pretoclip-copy-button', function () {
+		this.isMouseOver = false;
+		this.style.display = 'none';
 	} );
 
 	// eslint-disable-next-line no-jquery/no-global-selector
