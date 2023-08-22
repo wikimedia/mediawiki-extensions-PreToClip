@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"pretoclip-desc": "Leidžia kopijuoti PRE žymų turinį į iškarpinę",
+	"pretoclip-button-label": "Kopijuoti",
+	"pretoclip-button-tooltip": "Kopijuoti turinį į iškarpinę",
+	"pretoclip-button-notification-text": "Turinys nukopijuotas į iškarpinę"
+}
