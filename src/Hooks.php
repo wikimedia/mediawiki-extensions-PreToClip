@@ -19,20 +19,22 @@
 
 namespace MediaWiki\Extension\PreToClip;
 
-use MediaWiki\Hook\BeforePageDisplayHook;
+use MediaWiki\Hook\OutputPageBeforeHTMLHook;
 use OutputPage;
-use Skin;
 
-class Hooks implements BeforePageDisplayHook {
+class Hooks implements OutputPageBeforeHTMLHook {
 
 	/**
-	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/BeforePageDisplay
+	 * @see https://www.mediawiki.org/wiki/Manual:Hooks/OutputPageBeforeHTML
 	 * @param OutputPage $out
-	 * @param Skin $skin
+	 * @param string &$text
 	 * @return void
 	 */
-	public function onBeforePageDisplay( $out, $skin ): void {
-		$out->addModules( 'ext.preToClip.scripts' );
+	public function onOutputPageBeforeHTML( $out, &$text ) {
+		// Only add the module if the page contains a <pre> tag
+		if ( stripos( $text, '<pre' ) !== false ) {
+			$out->addModules( 'ext.preToClip' );
+		}
 	}
 
 }
