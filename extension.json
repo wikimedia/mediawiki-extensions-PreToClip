@@ -21,7 +21,7 @@
 		}
 	},
 	"Hooks": {
-		"BeforePageDisplay": "PreToClipHooks"
+		"OutputPageBeforeHTML": "PreToClipHooks"
 	},
 	"MessagesDirs": {
 		"PreToClip": [
@@ -29,14 +29,20 @@
 		]
 	},
 	"ResourceModules": {
-		"ext.preToClip.scripts": {
+		"ext.preToClip": {
 			"localBasePath": "resources",
 			"remoteExtPath": "PreToClip/resources",
-			"packageFiles": [
-				"ext.preToClip.scripts.js"
+			"scripts": [
+				"ext.preToClip.js"
+			],
+			"styles": [
+				"ext.preToClip.css"
+			],
+			"dependencies": [
+				"mediawiki.ui.button",
+				"oojs-ui.styles.icons-editing-advanced"
 			],
 			"messages": [
-				"pretoclip-button-label",
 				"pretoclip-button-tooltip",
 				"pretoclip-button-notification-text"
 			]

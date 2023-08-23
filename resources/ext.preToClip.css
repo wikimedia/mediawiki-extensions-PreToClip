@@ -1,0 +1,10 @@
+.pretoclip-copy-button {
+	float: right;
+	display: none;
+}
+
+pre:hover .pretoclip-copy-button,
+pre:active .pretoclip-copy-button,
+pre:focus .pretoclip-copy-button {
+	display: block;
+}
