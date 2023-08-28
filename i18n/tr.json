@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Hedda"
+		]
+	},
+	"pretoclip-desc": "PRE etiketlerinin içeriğinin panoya kopyalanmasına izin verir",
+	"pretoclip-button-label": "Kopyala",
+	"pretoclip-button-tooltip": "İçeriği panoya kopyala",
+	"pretoclip-button-notification-text": "İçerikler panoya kopyalandı"
+}
