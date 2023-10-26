@@ -39,7 +39,7 @@
 				"ext.preToClip.css"
 			],
 			"dependencies": [
-				"mediawiki.ui.button",
+				"oojs-ui-core",
 				"oojs-ui.styles.icons-editing-advanced"
 			],
 			"messages": [
