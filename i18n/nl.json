@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin"
+			"Sjoerddebruin",
+			"McDutchie"
 		]
 	},
-	"pretoclip-button-label": "Kopiëren"
+	"pretoclip-desc": "Maakt het mogelijk om de inhoud van PRE-tags naar het klembord te kopiëren",
+	"pretoclip-button-label": "Kopiëren",
+	"pretoclip-button-tooltip": "Kopieer de inhoud naar het klembord",
+	"pretoclip-button-notification-text": "De inhoud is naar het klembord gekopieerd"
 }
