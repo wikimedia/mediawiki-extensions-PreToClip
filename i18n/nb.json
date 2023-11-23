@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"pretoclip-desc": "Gjør det mulig å kopiere innholdet i PRE-tagger til utklippstavla",
+	"pretoclip-button-label": "Kopier",
+	"pretoclip-button-tooltip": "Kopier innholdet til utklippstavla",
+	"pretoclip-button-notification-text": "Innholdet har blitt kopiert til utklippstavla"
+}
