@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sjoerddebruin",
-			"McDutchie"
+			"McDutchie",
+			"Sjoerddebruin"
 		]
 	},
 	"pretoclip-desc": "Maakt het mogelijk om de inhoud van PRE-tags naar het klembord te kopiëren",

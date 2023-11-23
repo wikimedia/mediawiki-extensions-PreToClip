@@ -1,8 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung",
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
 	"pretoclip-desc": "允許將 PRE 標籤的內容複製到剪貼簿",
