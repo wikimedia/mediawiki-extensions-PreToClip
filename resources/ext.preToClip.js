@@ -1,4 +1,4 @@
-( function ( mw, $ ) {
+( function ( mw ) {
 	'use strict';
 	if ( !navigator.clipboard ) {
 		// eslint-disable-next-line no-console
@@ -18,7 +18,6 @@
 
 		var clipboardText = pre.innerText;
 		var tooltip = mw.message( 'pretoclip-button-tooltip' ).text();
-		var copyButton = document.createElement( 'button' );
 
 		var copyButton = new OO.ui.ButtonWidget( {
 			icon: 'copy',
@@ -37,6 +36,6 @@
 			mw.notify( mw.message( 'pretoclip-button-notification-text' ).text() );
 		}, [], copyButton );
 
-		pre.prepend( copyButton.$element[0] );
+		pre.prepend( copyButton.$element[ 0 ] );
 	}
-}( mediaWiki, jQuery ) );
+}( mediaWiki ) );
