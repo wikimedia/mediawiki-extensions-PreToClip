@@ -4,7 +4,6 @@ namespace MediaWiki\Extension\PreToClip\Tests;
 
 use MediaWiki\Extension\PreToClip\Hooks;
 use OutputPage;
-use Skin;
 
 /**
  * @coversDefaultClass \MediaWiki\Extension\PreToClip\Hooks
@@ -12,7 +11,7 @@ use Skin;
 class HooksTest extends \MediaWikiUnitTestCase {
 
 	/**
-	 * @covers ::onBeforePageDisplay
+	 * @covers ::onOutputPageBeforeHTML
 	 */
 	public function testOnBeforePageDisplay() {
 		$outputPageMock = $this->getMockBuilder( OutputPage::class )
@@ -21,12 +20,10 @@ class HooksTest extends \MediaWikiUnitTestCase {
 
 		$outputPageMock->expects( $this->once() )
 			->method( 'addModules' )
-			->with( 'ext.preToClip.scripts' );
+			->with( 'ext.preToClip' );
 
-		$skinMock = $this->getMockBuilder( Skin::class )
-			->disableOriginalConstructor()
-			->getMock();
+		$text = 'Some text <pre>test</pre> some text';
 
-		( new Hooks )->onBeforePageDisplay( $outputPageMock, $skinMock );
+		( new Hooks )->onOutputPageBeforeHTML( $outputPageMock, $text );
 	}
 }
