@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hehua"
+			"Hehua",
+			"沈澄心"
 		]
 	},
+	"pretoclip-desc": "允许将PRE标签的内容复制到剪贴板",
 	"pretoclip-button-label": "复制",
+	"pretoclip-button-tooltip": "复制内容到剪贴板",
 	"pretoclip-button-notification-text": "内容已复制到剪贴板"
 }
