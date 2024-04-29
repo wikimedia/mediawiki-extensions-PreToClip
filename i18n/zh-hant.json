@@ -5,8 +5,8 @@
 			"Winston Sung"
 		]
 	},
-	"pretoclip-button-label": "複製",
-	"pretoclip-desc": "允許將 PRE 標籤的內容複製到剪貼簿",
-	"pretoclip-button-tooltip": "複製內容到剪貼簿",
-	"pretoclip-button-notification-text": "內容已復製到剪貼簿"
+	"pretoclip-button-label": "\u8907\u88fd",
+	"pretoclip-desc": "\u5141\u8a31\u5c07 PRE \u6a19\u7c64\u7684\u5167\u5bb9\u8907\u88fd\u5230\u526a\u8cbc\u7c3f",
+	"pretoclip-button-tooltip": "\u8907\u88fd\u5167\u5bb9\u5230\u526a\u8cbc\u7c3f",
+	"pretoclip-button-notification-text": "\u5167\u5bb9\u5df2\u5fa9\u88fd\u5230\u526a\u8cbc\u7c3f"
 }
