@@ -2,11 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Hehua",
-			"\u6c88\u6f84\u5fc3"
+			"沈澄心"
 		]
 	},
-	"pretoclip-button-label": "\u590d\u5236",
-	"pretoclip-button-notification-text": "\u5185\u5bb9\u5df2\u590d\u5236\u5230\u526a\u8d34\u677f",
-	"pretoclip-desc": "\u5141\u8bb8\u5c06PRE\u6807\u7b7e\u7684\u5185\u5bb9\u590d\u5236\u5230\u526a\u8d34\u677f",
-	"pretoclip-button-tooltip": "\u590d\u5236\u5185\u5bb9\u5230\u526a\u8d34\u677f"
+	"pretoclip-button-label": "复制",
+	"pretoclip-button-notification-text": "内容已复制到剪贴板",
+	"pretoclip-desc": "允许将PRE标签的内容复制到剪贴板",
+	"pretoclip-button-tooltip": "复制内容到剪贴板"
 }

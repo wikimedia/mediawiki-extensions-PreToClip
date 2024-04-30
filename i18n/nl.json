@@ -5,8 +5,8 @@
 			"Sjoerddebruin"
 		]
 	},
-	"pretoclip-button-label": "Kopi\u00ebren",
-	"pretoclip-desc": "Maakt het mogelijk om de inhoud van PRE-tags naar het klembord te kopi\u00ebren",
+	"pretoclip-button-label": "Kopiëren",
+	"pretoclip-desc": "Maakt het mogelijk om de inhoud van PRE-tags naar het klembord te kopiëren",
 	"pretoclip-button-tooltip": "Kopieer de inhoud naar het klembord",
 	"pretoclip-button-notification-text": "De inhoud is naar het klembord gekopieerd"
 }
