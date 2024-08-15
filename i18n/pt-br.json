@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gabriel.Anac"
+		]
+	},
+	"pretoclip-desc": "Permite copiar o conteúdo das tags PRE para a área de transferência",
+	"pretoclip-button-label": "Copiar",
+	"pretoclip-button-tooltip": "Copia o conteúdo para a área de transferência",
+	"pretoclip-button-notification-text": "O conteúdo foi copiado para a área de transferência"
+}
