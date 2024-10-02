@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ant176",
 			"MathXplore"
 		]
 	},
-	"pretoclip-button-label": "コピー"
+	"pretoclip-button-label": "コピー",
+	"pretoclip-desc": "PREタグの内容をクリップボードにコピーできます",
+	"pretoclip-button-tooltip": "内容をクリップボードにコピー",
+	"pretoclip-button-notification-text": "内容がクリップボードにコピーされました"
 }
