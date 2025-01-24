@@ -16,7 +16,9 @@
 			pre.setAttribute( 'tabindex', '0' );
 		}
 
-		var clipboardText = pre.innerText;
+		var tmpNode = pre.cloneNode(true);
+		var clipboardText = tmpNode.innerText;
+		tmpNode.remove();
 		var tooltip = mw.message( 'pretoclip-button-tooltip' ).text();
 
 		var copyButton = new OO.ui.ButtonWidget( {
