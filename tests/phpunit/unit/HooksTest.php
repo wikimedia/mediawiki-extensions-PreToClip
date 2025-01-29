@@ -3,7 +3,7 @@
 namespace MediaWiki\Extension\PreToClip\Tests;
 
 use MediaWiki\Extension\PreToClip\Hooks;
-use OutputPage;
+use MediaWiki\Output\OutputPage;
 
 /**
  * @coversDefaultClass \MediaWiki\Extension\PreToClip\Hooks
