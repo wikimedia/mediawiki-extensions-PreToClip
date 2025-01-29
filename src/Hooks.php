@@ -20,7 +20,7 @@
 namespace MediaWiki\Extension\PreToClip;
 
 use MediaWiki\Hook\OutputPageBeforeHTMLHook;
-use OutputPage;
+use MediaWiki\Output\OutputPage;
 
 class Hooks implements OutputPageBeforeHTMLHook {
 
