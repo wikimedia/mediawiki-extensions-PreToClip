@@ -6,8 +6,8 @@
 		return;
 	}
 
-	var preElements = document.querySelectorAll( '#content pre' );
-	for ( var i = 0; i < preElements.length; i++ ) {
+	const preElements = document.querySelectorAll( '#content pre' );
+	for ( let i = 0; i < preElements.length; i++ ) {
 		createPreToClipButton( preElements[ i ] );
 	}
 
@@ -16,10 +16,10 @@
 			pre.setAttribute( 'tabindex', '0' );
 		}
 
-		var clipboardText = pre.innerText;
-		var tooltip = mw.message( 'pretoclip-button-tooltip' ).text();
+		const clipboardText = pre.innerText;
+		const tooltip = mw.message( 'pretoclip-button-tooltip' ).text();
 
-		var copyButton = new OO.ui.ButtonWidget( {
+		const copyButton = new OO.ui.ButtonWidget( {
 			icon: 'copy',
 			classes: [ 'pretoclip-copy-button' ],
 			tabIndexed: true,
@@ -30,7 +30,7 @@
 		} );
 
 		copyButton.on( 'click', function () {
-			var data = this.getData();
+			const data = this.getData();
 			// eslint-disable-next-line compat/compat
 			navigator.clipboard.writeText( data.clipboardText );
 			mw.notify( mw.message( 'pretoclip-button-notification-text' ).text() );
