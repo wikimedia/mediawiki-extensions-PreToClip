@@ -1,6 +1,14 @@
 {
 	"name": "mediawiki/pre-to-clip",
 	"type": "mediawiki-extension",
+	"license": "GPL-3.0-only",
+	"authors": [
+		{
+			"name": "Hallo Welt! GmbH",
+			"email": "info@hallowelt.com",
+			"homepage": "https://www.hallowelt.com"
+		}
+	],
 	"require": {
 		"composer/installers": "~1|~2"
 	},
