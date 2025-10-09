@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Toliño"
+		]
+	},
+	"pretoclip-desc": "Permite copiar o contido das etiquetas «PRE» no portapapeis",
+	"pretoclip-button-label": "Copiar",
+	"pretoclip-button-tooltip": "Copiar o contido no portapapeis",
+	"pretoclip-button-notification-text": "O contido copiouse no portapapeis"
+}
