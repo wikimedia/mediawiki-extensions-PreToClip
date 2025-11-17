@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alshamiri1"
+			"Alshamiri1",
+			"Mohammed Qays"
 		]
 	},
 	"pretoclip-desc": "يسمح بنسخ محتويات علامات PRE إلى الحافظة",
 	"pretoclip-button-label": "نسخ",
 	"pretoclip-button-tooltip": "ينسخ المحتوى إلى الحافظة",
-	"pretoclip-button-notification-text": "تم نسخ المحتويات في الحافظة"
+	"pretoclip-button-notification-text": "نُسخت المحتويات إلى الحافظة"
 }
