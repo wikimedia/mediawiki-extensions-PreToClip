@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
-	"pretoclip-button-label": "복사"
+	"pretoclip-desc": "PRE 태그의 내용을 클립보드에 복사할 수 있도록 합니다",
+	"pretoclip-button-label": "복사",
+	"pretoclip-button-tooltip": "내용을 클립보드에 복사합니다",
+	"pretoclip-button-notification-text": "내용이 클립보드에 복사되었습니다"
 }
