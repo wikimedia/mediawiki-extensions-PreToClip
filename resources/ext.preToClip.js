@@ -12,7 +12,7 @@
 
 		const tooltip = mw.message( 'pretoclip-button-tooltip' ).text();
 
-		const copyButton = new OO.ui.ButtonWidget( {
+		const copyButton = new OO.ui.ButtonWidget( { // eslint-disable-line mediawiki/no-unlabeled-buttonwidget, max-len
 			icon: 'copy',
 			classes: [ 'pretoclip-copy-button' ],
 			tabIndexed: true,
