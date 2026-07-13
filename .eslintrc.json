@@ -5,11 +5,12 @@
 		"wikimedia/jquery",
 		"wikimedia/mediawiki"
 	],
+	"parserOptions": {
+		"sourceType": "commonjs"
+	},
 	"globals": {
 		"mediaWiki": "readonly",
 		"jQuery": "readonly"
 	},
-	"rules": {
-		"mediawiki/no-unlabeled-buttonwidget": "warn"
-	}
+	"rules": {}
 }
