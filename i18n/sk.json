@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Wizzard"
+		]
+	},
+	"pretoclip-desc": "Umožňuje kopírovať obsah značiek PRE do schránky",
+	"pretoclip-button-label": "Kopírovať",
+	"pretoclip-button-tooltip": "Skopírovať obsah do schránky",
+	"pretoclip-button-notification-text": "Obsah bol skopírovaný do schránky"
+}
